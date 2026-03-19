@@ -12,7 +12,7 @@ def price():
 
     #variables
     impuesto_uno = precio_base * 0.21
-    subtotal = impuesto_uno + impuesto_uno
+    subtotal = precio_base + impuesto_uno
     propina = subtotal * 0.10
     precio_final = subtotal + propina
 

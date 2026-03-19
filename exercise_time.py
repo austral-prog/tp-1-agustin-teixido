@@ -10,9 +10,9 @@ def time():
     total_segundos = 3665
 
     #variables
-    horas = ((total_segundos / 60) /60)
-    minutos = total_segundos / 60
-    segundos = total_segundos % 60
+    horas = total_segundos // 3600
+    minutos = total_segundos//60
+    segundos = total_segundos % 3660
 
     #prints
     print(horas)
