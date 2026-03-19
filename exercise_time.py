@@ -11,8 +11,8 @@ def time():
 
     #variables
     horas = total_segundos // 3600
-    minutos = total_segundos//60
-    segundos = total_segundos % 3660
+    minutos = (total_segundos % 3660 ) //60
+    segundos = total_segundos % 60
 
     #prints
     print(horas)
