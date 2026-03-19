@@ -12,3 +12,12 @@ def statistics():
     num2 = 8
     num3 = 23
     num4 = 12
+
+    #prints
+    print((num1 + num2 + num3 + num4)/4)
+    print(num3)
+    print(num2)
+    print(num3-num2)
+
+#statistics()
+
